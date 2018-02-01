@@ -42,6 +42,9 @@ int main()
         case 9:
             cout << "nine" << endl;
             break;
+        default:
+            i++;
+            break;
         }
     }
     
